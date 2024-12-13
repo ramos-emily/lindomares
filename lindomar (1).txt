@@ -1,0 +1,79 @@
+
+dentro do documento no prompty de comando:
+
+C:\user\sn1021328\documents\ecommerce>
+py
+(mostrou que tem o python)
+C:\user\sn1021328\documents\ecommerce>py
+qui ()
+(tem q sair )
+
+sleep (tipo um tempo de espera do codigo)= from time import sleep
+
+
+py        -m (procurar uma lista)          venv  (import de py)                  env
+python           scripty                    ambiente virtual               nome do ambiente
+
+C:\user\sn1021328\documents\ecommerce>py -m venv env
+C:\user\sn1021328\documents\ecommerce>env\scripty\activate (entrar no ambiente virtual)
+(env) C:\user\sn1021328\documents\ecommerce>pip list (mostra oq vc instalou no ambiente)
+mostra atualizaçoes necessarias com codigo para faze-la
+(env) C:\user\sn1021328\documents\ecommerce>python.exe -m pip install --upgrade pip
+(env) C:\user\sn1021328\documents\ecommerce>pip install djangorestframework
+installar
+(env) C:\user\sn1021328\documents\ecommerce>pip install django_restframework
+instalar 
+(env) C:\user\sn1021328\documents\ecommerce>pip install django-cors-headers
+instalar
+(env) C:\user\sn1021328\documents\ecommerce>pip freeze
+(env) C:\user\sn1021328\documents\ecommerce>pip freeze > requirementes.txt
+ele vai salvar numa pagina todos os pacotes instalados
+(env) C:\user\sn1021328\documents\ecommerce>pip install requirements.txt (faça no outro local, ira baixar tudo isso)
+(env) C:\user\sn1021328\documents\ecommerce>cls
+limpa tela
+(env) C:\user\sn1021328\documents\ecommerce>django-admin startapp api
+criar um api
+(env) C:\user\sn1021328\documents\ecommerce>django-admin startproject ecommerce .
+
+C:\user\sn1021328\documents\ecommerce>git init
+.git da pasta oculta
+
+
+
+
+
+restful
+
+get - lê
+post - cria
+
+
+
+
+C:\Users\42749126800\Desktop\ecommerce>env\scripts\activate
+
+(env) C:\Users\42749126800\Desktop\ecommerce>py manage.py makemigrations
+No changes detected
+
+(env) C:\Users\42749126800\Desktop\ecommerce>py manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+
+(env) C:\Users\42749126800\Desktop\ecommerce>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

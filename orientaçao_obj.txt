@@ -1,0 +1,47 @@
+class Carro:
+    def __init__(self, marca, modelo, ano):
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+
+    def imprimir(self):
+        return print(f'a marca é {self.marca}, o ano é {self.ano} e o modelo é {self.modelo}')
+
+x = Carro('VW', 'up', '2016')
+x.imprimir()
+
+y = Carro('toyota', 'corola', '2022')
+y.imprimir()
+
+
+
+class Ecommerce:
+    def __init__(self):
+        self.menu()
+
+    def menu(self):
+        while True:
+            print('\n'
+              '[1]-create\n'
+              '[2]-read\n'
+              '[3]-Update\n'
+              '[4]-Delete\n'
+              '[5]-Exit\n\n'
+            )
+            op = input('Escolha uma opção: ')
+
+            match op:
+                case '1': 
+                    print('Creat')
+                case '2': 
+                    print('Read')
+                case '3': 
+                    print('Update')
+                case '4': 
+                    print('Delete')
+                case '5':   
+                    break
+                case _:
+                    print('Esolha uma opçao correta.')
+
+home = Ecommerce()
